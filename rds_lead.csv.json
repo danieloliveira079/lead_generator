@@ -1,0 +1,104 @@
+{
+  "rows": 500000,
+  "fields": [
+    {
+      "name": "nome",
+      "type": "faker:name:name"
+    },
+    {
+      "name": "email",
+      "type": "faker:internet:email"
+    },
+    {
+      "name": "tags",
+      "type": "fixed",
+      "values": ["tag1","tag2","tag3","tag4","tag5"]
+    },
+    {
+      "name": "empresa",
+      "type": "faker:company:name"
+    },
+    {
+      "name": "cidade",
+      "type": "faker:address:city"
+    },
+    {
+      "name": "estado",
+      "type": "faker:address:state"
+    },
+    {
+      "name": "telefone",
+      "type": "faker:phone_number:cell_phone"
+    },
+    {
+      "name": "twitter",
+      "type": "fixed",
+      "values": ["@fake1", "@fake2", "@fake3", "@fake4", "@fake5"]
+    },
+    {
+      "name": "facebook",
+      "type": "fixed",
+      "values": ["faceuser1", "faceuser2", "faceuser3", "faceuser4", "faceuser5"]
+    },
+    {
+      "name": "linkedin",
+      "type": "fixed",
+      "values": ["linkedin1", "linkedin2", "linkedin3", "linkedin4", "linkedin5"]
+    },
+    {
+      "name": "site",
+      "type": "faker:internet:url"
+    },
+    {
+      "name": "telefone fixo",
+      "type": "faker:phone_number:phone_number"
+    },
+    {
+      "name": "cargo",
+      "type": "faker:commerce:department"
+    },
+    {
+      "name": "idade",
+      "type": "rand:int",
+      "range": [18, 60]
+    },
+    {
+      "name": "Interesse - Lead Scoring",
+      "type": "faker:lorem:words"
+    },
+    {
+      "name": "Perfil - Lead Scoring",
+      "type": "faker:lorem:words"
+    },
+    {
+      "name": "Eventos",
+      "type": "faker:lorem:words"
+    },
+    {
+      "name": "Origen da última conversão",
+      "type": "faker:lorem:words"
+    },
+    {
+      "name": "Última conversão",
+      "type": "fixed",
+      "values": ["10/02/2015", "21/09/2014", "12/07/2011"]
+    },
+    {
+      "name": "Estágio no funil",
+      "type": "faker:lorem:words"
+    },
+    {
+      "name": "Dono do Lead",
+      "type": "faker:name:name"
+    },
+    {
+      "name": "Conversões",
+      "type": "faker:lorem:words"
+    },
+    {
+      "name": "Primeiras Conversão",
+      "type": "fixed",
+      "values": ["10/02/2015", "21/09/2014", "12/07/2011"]
+    }
+  ]
+}

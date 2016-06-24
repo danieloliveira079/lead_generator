@@ -1,0 +1,38 @@
+{
+  "rows": 200,
+  "fields": [
+    {
+      "name": "First Name",
+      "type": "Faker::Name.first_name"
+    },
+    {
+      "name": "Last Name",
+      "type": "faker:name:last_name",
+      "inject": ["Lu", "Smith"]
+    },
+    {
+      "name": "City",
+      "type": "faker:address:city",
+      "rotate": "rows/5"
+    },
+    {
+      "name": "State",
+      "type": "faker:address:state_abbr",
+      "rotate": 10,
+      "inject": ["CA"]
+    },
+    {
+      "name": "Age",
+      "type": "rand:int",
+      "range": [10, 80]
+    },
+    {
+      "name": "Height",
+      "type": "rand:float",
+      "range": [150, 190],
+      "inject": [200, 210],
+      "rotate": 20,
+      "precision": 2
+    }
+  ]
+}
